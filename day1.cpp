@@ -19,7 +19,7 @@ t=(-z);
   }
  for(k=0;k>t;k--)
   {a--;
-  }
+  }1
 b=(-a);
  cout<<"the sum of the three numbers is ";
  cout<<b;
