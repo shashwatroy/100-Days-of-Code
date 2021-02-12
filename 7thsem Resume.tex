@@ -1,0 +1,181 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://www.linkedin.com/in/shashwat-roy-042940145/}{\Large Shashwat Roy}} & Email : \href{mailto:shashwatroy007@gmail.com}{shashwatroy007@gmail.com}\\
+  \href{https://www.linkedin.com/in/shashwatroy/}{https://www.linkedin.com/in/shashwatroy} & Mobile : +91-8279818575 \\
+  \href{https://github.com/shashwatroy}{https://github.com/shashwatroy}
+\end{tabular*}
+
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+  \resumeSubHeadingListStart
+    \item{
+      \textbf{Languages}{: Python, Javascript, C/C++, SQL, Dart}}
+    \item{
+      \textbf{Libraries}{: Tensorflow, Scikit learn, Numpy, Pandas, Keras, Scipy, SQLFlow, Matplotlib}}
+    \item{
+      \textbf{Technologies}{: Flutter, Node.js}}
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Amity University}{Noida, Uttar Pradesh}
+      {Bachelor of Technology in Computer Science; CGPA: 7.33}{Aug. 2017 -- Present}
+      \resumeItemListStart
+        \resumeItem{Relevant Coursework:}
+          {Artificial Neural Network; Artificial Intelligence; Data Mining and Business Intelligence; Fundamentals of Machine Learning}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Bhaktivedanta Gurukul and International School}{Mathura, Uttar Pradesh}
+      {I.S.C, XII; Percentage: 70\%}{Aug. 2016 -- July. 2017}
+      \resumeSubheading
+      {Bhaktivedanta Gurukul and International School}{Mathura, Uttar Pradesh}
+      {I.C.S.E, X; Percentage: 86\%}{Aug. 2014 -- July. 2015}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Amity University}{Noida, Uttar Pradesh}
+      {Inhouse Trainee}{Apr. 2020 - May 2020}
+      \resumeItemListStart
+        \resumeItem{Life Expectancy Predictor}{\href{https://github.com/shashwatroy/Life-Expectancy-Predictor}{(Link)}}
+          {Determined the factors affecting life expectancy in different countries of the world and also trained a model to predict life expectancy.}
+         \resumeItem{Analysis}
+          {Found a correlation between life expectancy and various attributes using 3 Algorithms Linear Regression, Random Forest Regressor and Gradient Boost Regressor on a Kaggle dataset.}
+      \resumeItemListEnd
+      
+% --------Multiple Positions Heading------------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Amity University}{Noida, Uttar Pradesh}
+      {Inhouse Trainee}{Apr. 2019 - May 2019}
+      \resumeItemListStart
+        \resumeItem{Stock Prices Prediction}{\href{https://github.com/shashwatroy/Stock-Prediction}{(Link)}}
+          {Trained models that could predict Stock Prices on the dataset of Tata Global Beverages from Quandl. Compared the accuracy of the models and found the best algorithm for the job. Used  Linear Regression, K Nearest Neighbour and LSTM.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Amity University}{Noida, Uttar Pradesh}
+      {Student Developer}{Oct. 2018 - Nov. 2018}
+      \resumeItemListStart
+        \resumeItem{Recommendation System}{\href{https://github.com/shashwatroy/Movie-Recommendation-System}{(Link)}}
+          {Created a Movie Recommendation System using Collaborative Filtering. Trained the model using Fastai API.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{\href{https://github.com/shashwatroy/Sunspot-Prediction}{Sunspot Prediction}}
+      {Trained a model to predict a temporary phenomena on the Sun's photosphere that appear as spots darker than the surrounding areas called sunspots. They are regions of reduced surface temperature. Implementated CNN, RNN and LSTM on a Time-Series Kaggle dataset.}
+    \resumeSubItem{\href{https://github.com/shashwatroy/Cryptocurrency-Analysis}{Cryptocurrency Analysis}}
+      {Application of simple Data Manipulation and Data Visualization techniques on various cryptocurrencies. Studied the capitalization of the top 10 coins in the market. Have done the analysis using Jupyter Notebooks and Python.}
+    \resumeSubItem{\href{https://github.com/shashwatroy/Music-Generation}{Music Generation}}
+      {This Project is a part of MIT Deep Learning 6.S191 training workshop. Used Recurrent Neural Network (RNN) to build the Model which generates the song music itself.}
+    \resumeSubItem{\href{https://github.com/shashwatroy/The-Google-Playstore}{The GooglePlay App Market}}
+      {A comprehensive analysis of the Android app market by comparing over ten thousand apps in Google Play across different categories. Used Sentimantal Analysis to determine how people feel about a product, brand, or service. Tried to come up with effective strategies to size and price an app.}
+  \resumeSubHeadingListEnd
+
+%
+%--------PROGRAMMING SKILLS------------
+%\section{Programming Skills}
+%  \resumeSubHeadingListStart
+%    \item{
+%      \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
+%      \hfill
+%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
+%    }
+%  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
